@@ -12,7 +12,7 @@ Current examples include:
 - 🦜 Problem Quick-Solved
 - 🔗 Personalize Learning Plan
 - 📝 Chat with feedback
-- 📝Social_Platfrom
+- 🔗 Social_Platfrom
 
 ### Get an OpenAI API key
 
