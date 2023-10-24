@@ -13,7 +13,7 @@ likes = st.session_state.get("likes", {})
 comments = st.session_state.get("comments", {})
 
 def create_post():
-    st.title("Create Post")
+    st.title("🔗 Create Post")
     new_post = st.text_area("Write a new post", "Anything want to share?")
     if st.button("Submit Post"):
         if new_post != "Anything want to share?":
@@ -24,7 +24,7 @@ def create_post():
             st.success("Submit Success")
 
 def view_posts():
-    st.title("View Posts")
+    st.title("🔗 View Posts")
     sorted_indices = sorted(range(len(timestamps)), key=lambda i: timestamps[i], reverse=True)
     for idx in sorted_indices:
         st.write("----")
